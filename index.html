@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Wish gummies</title>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" alt="logo" class="logo">
+        <div class="buttons">
+            <a href="Shop.html">Shop</a>
+            <a href="Flavors.html">Flavors</a> 
+            <a href="Benefits.html">Benefits</a>
+            <a href="Reviews.html">Reviews</a>
+            <button>Get Started</button>
+        </div>
+    </nav>
+    <br> <br>
+    <div class="hero">
+        <img src="images/background.jpg" alt="Gummies Background" class="hero-img">
+        <div class="hero-content">
+         <h1>Delicious Gummies <br> Personalized For Your Health</h1>
+            <p>Your health is unique, your supplements should be too. 
+            Discover gummies made for your body and your needs with Nastravita Gummies</p>
+            <button class="cta-btn">Get Started</button>
+        </div>
+    </div>
+    <div class="special">
+        <div>
+            <h1>Special Just</h1><h1 class="you"> Like YOU</h1>
+            <a href="Shop.html">Make your own gummy <img src="images/fi-rs-arrow-right.png" alt="arrow"></a>
+        </div>
+        <img src="images/circle gummies.png" alt="gummies">
+    </div><br><br><br><br>
+    <div class="features">
+        <h1>Personalization That Matters</h1>
+        <img src="images/Vector 1.png" alt="brush stroke" class="brush">
+        <div class="cards">
+            <div class="card" id="first">
+                <img src="images/card1.png" alt="">
+                <h3>Natural Ingredients</h3>
+                <p>Made with real fruit extracts and no artificial flavors or colors</p>
+            </div>
+            <div class="card">
+                <img src="images/card2.png" alt="">
+                <h3>Heart Health Support</h3>
+                <p>Formulated to promote cardiovascular health and overall wellness</p>
+            </div>
+            <div class="card">
+                <img src="images/card3.png" alt="">
+                <h3>Energy Boost</h3>
+                <p>Provides sustained energy throughout the day with the crash</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        
+        <div class="faq-list">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How does the personalization process work?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>The personalization process starts with understanding your individual needs and preferences. Based on your profile, we carefully select the most suitable natural ingredients and create a formula tailored just for you.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Where are ingredients sourced from?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Our ingredients are primarily sourced from flowers, carefully selected from trusted natural suppliers to ensure purity and quality.</p>
+                </div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>How long does it take to see results?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Results may vary from person to person, but usually begin to appear after about 3 months of consistent use.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const faqItem = question.parentElement;
+                faqItem.classList.toggle('active');
+            });
+        });
+    </script>
+    <div class="start">
+        <h1>Start Your Wellness Journey Today</h1>
+        <button class="cta-btn">Get Started</button>
+    </div>
+    <footer>
+        <div class="buttons" id="footerbuttons">
+            <a href="Shop.html">Shop</a>
+            <a href="Learn.html">Learn</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/nastravita/#"><img src="images/insta.png" alt=""></a>
+            <img src="images/twitter.png" alt="">
+            <img src="images/fb.png" alt="">
+        </div>
+        <p>@2025 Vitality Bites. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

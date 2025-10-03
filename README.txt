@@ -1,0 +1,2 @@
+After doing all the work I realized that my browser was at 50% zoom, so if you open the project in your
+broswer just set the zoom accordingly, I'll try to fix this issue before the presentation, okay bye.
