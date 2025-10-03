@@ -19,15 +19,17 @@ body{
 .buttons a{
     color: black;
     text-decoration: none;
-    font-size: xx-large;
+    font-size: 100%;
     font-weight: bold;
 }
 .buttons button{
     background-color: #F37C2B;
     font-weight: bold;
     font-size: larger;
-    width: 7vw;
-    height: 1.6vw;
+    width: 9vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: fit-content;
     border-radius: 20px;
     border: none;
     cursor: pointer;
@@ -56,24 +58,23 @@ body{
   width: 100%;       
   transform: translate(-50%, -50%); 
   text-align: center;
-  color: white;         
-  padding: 20px;
-  max-width: 80%;
-  font-size: 300%;
+  color: white;  
+  font-size: 100%;
+  margin: 10px;
 }
 
 .cta-btn {
-  background-color: #F37C2B;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 30px;
-  cursor: pointer;
-  margin-top: 15px;
-  box-shadow: 0px 6px 0px black;
-  width: 20pc;
-  height: 5pc;
-  font-size: 3pc;
-  font-weight: bold;
+    background-color: #F37C2B;
+    font-weight: bold;
+    font-size: 120%;
+    width: 9vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: fit-content;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 6px 0px #000000; 
 }
 
 .special{
@@ -83,12 +84,12 @@ body{
     justify-content: space-between;
     width: 86vw;
     margin: 0 auto;
-    font-size: 4pc;
-    line-height: 150%;
+    font-size: 200%;
+    line-height: 180%;
 }
 
 .special img{
-    height: 35vw;
+    height: 30vw;
 }
 
 .special a{
@@ -112,7 +113,7 @@ body{
     width: 86vw;
     margin: 0 auto;
     position: relative;
-    font-size: 4pc;
+    font-size: 150%;
 }
 
 .features .cards{
@@ -121,12 +122,14 @@ body{
 }
 
 .features .card{
-    width: 25vw;
+    width: fit-content;
     height: auto;
     border-radius: 5%;
     z-index: 1;
     background-color: #FFF9F2;
     padding: 30px;
+    font-size: 80%;
+    margin: 20px;
 }
 
 .features .card img{
@@ -159,7 +162,7 @@ body{
     margin-bottom: 40px;
     color: #000000;
     font-weight: 800;
-    font-size: 4pc;
+    font-size: 300%;
 }
 
 .faq-list {
@@ -192,7 +195,7 @@ body{
 
 .faq-question h3 {
     font-weight: 500;
-    font-size: 3pc;
+    font-size: 200%;
     color: #2c3e50;
 }
 
@@ -209,7 +212,7 @@ body{
     transition: max-height 0.3s ease, padding 0.3s ease;
     color: #555;
     line-height: 1.7;
-    font-size: 3pc;
+    font-size: 200%;
 }
 
 .faq-item.active .faq-answer {
@@ -234,7 +237,7 @@ body{
 }
 
 .start h1{
-    font-size: 4pc;
+    font-size: 250%;
     text-transform: capitalize;
 }
 footer{
@@ -259,20 +262,3 @@ footer p{
     margin: 0 auto;
     justify-content: space-around;
 }
-/* @media (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
-    }
-    
-    .faq-question {
-        padding: 18px 20px;
-    }
-    
-    .faq-answer {
-        padding: 0 20px;
-    }
-    
-    .faq-item.active .faq-answer {
-        padding: 0 20px 20px;
-    }
-} */
