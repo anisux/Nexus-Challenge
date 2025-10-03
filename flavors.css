@@ -1,0 +1,22 @@
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a img{
+    border-radius: 50%;
+    width: 7vw;
+}
+nav p{
+    color: white;
+}
+.flavors{
+    display: relative;
+}
+.flavors img{
+    width: 67vw;
+    height: 38vw;
+    margin: 0 auto;
+}
