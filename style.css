@@ -3,6 +3,11 @@ nav{
     align-items: center;
     justify-content: space-between;    
 }
+nav .ktiba{
+    width: 15vw;
+    position: relative;
+    right: 200px;
+}
 body{
     font-family: 'Urbanist', sans-serif;
 }
@@ -35,14 +40,12 @@ body{
     cursor: pointer;
     box-shadow: 0px 6px 0px #000000; 
 }
-
 .hero {
   position: relative;   
   width: 86vw;   
   margin: 0 auto;
   height: fit-content;
 }
-
 .hero-img {
   width: 100%;          
   display: block;
@@ -50,7 +53,6 @@ body{
   filter: brightness(70%);
   height: 25vw;
 }
-
 .hero-content {
   position: absolute;   
   top: 50%;             
@@ -62,7 +64,6 @@ body{
   font-size: 100%;
   margin: 10px;
 }
-
 .cta-btn {
     background-color: #F37C2B;
     font-weight: bold;
@@ -76,7 +77,6 @@ body{
     cursor: pointer;
     box-shadow: 0px 6px 0px #000000; 
 }
-
 .special{
     position: relative;
     display: flex;
@@ -87,40 +87,33 @@ body{
     font-size: 200%;
     line-height: 180%;
 }
-
 .special img{
     height: 30vw;
 }
-
 .special a{
     color: #000000;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
-
 .special a img{
     height: 5vw;
 }
-
 .special .you{
     color: #F37C2B;
     position: relative;
     bottom: 30px;
 }
-
 .features{
     width: 86vw;
     margin: 0 auto;
     position: relative;
     font-size: 150%;
 }
-
 .features .cards{
     display: flex;
     justify-content: space-between;
 }
-
 .features .card{
     width: fit-content;
     height: auto;
@@ -131,32 +124,26 @@ body{
     font-size: 80%;
     margin: 20px;
 }
-
 .features .card img{
     width: 12%;
 }
-
 .features .brush{
     position: absolute;
     z-index: 0;
     width: 100%;
 }
-
 .features .notes{
     width: 10%;
 }
-
 #first{
     z-index: -1;
 }
-
 .container {
     width: 86vw;
     margin: 0 auto;
     padding: 40px 20px;
 
 }
-
 .container h1{
     text-align: center;
     margin-bottom: 40px;
@@ -164,22 +151,18 @@ body{
     font-weight: 800;
     font-size: 300%;
 }
-
 .faq-list {
     background-color: white;
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     overflow: hidden;
 }
-
 .faq-item {
     border-bottom: 1px solid #eaeaea;
 }
-
 .faq-item:last-child {
     border-bottom: none;
 }
-
 .faq-question {
     padding: 20px 25px;
     cursor: pointer;
@@ -188,23 +171,19 @@ body{
     align-items: center;
     transition: background-color 0.2s;
 }
-
 .faq-question:hover {
     background-color: #f8f9fa;
 }
-
 .faq-question h3 {
     font-weight: 500;
     font-size: 200%;
     color: #2c3e50;
 }
-
 .faq-toggle {
     color: #27ae60;
     font-size: 3pc;
     transition: transform 0.3s;
 }
-
 .faq-answer {
     padding: 0 25px;
     max-height: 0;
@@ -214,16 +193,13 @@ body{
     line-height: 1.7;
     font-size: 200%;
 }
-
 .faq-item.active .faq-answer {
     padding: 0 25px 25px;
     max-height: 500px;
 }
-
 .faq-item.active .faq-toggle {
     transform: rotate(45deg);
 }
-
 .start{
     width: 86vw;
     margin: 0 auto;
@@ -235,7 +211,6 @@ body{
     border-radius: 10px;
     justify-content: space-around;
 }
-
 .start h1{
     font-size: 250%;
     text-transform: capitalize;
